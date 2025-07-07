@@ -8,7 +8,7 @@ def start(update: Update, context: CallbackContext):
     update.message.reply_text('Привет! Я DICare-бот. Чем могу помочь?')
 
 def main():
-    updater = Updater('YOUR_TELEGRAM_TOKEN')
+    updater = Updater('7635205082:AAGqq74uxQIFyTJJszlWMmjvODXGT-62jHI')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
     updater.start_polling()
